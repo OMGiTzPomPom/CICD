@@ -2,7 +2,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { toast } from "react-hot-toast";
 import { useState, useEffect } from "react";
-import { registrationSchema as ponyScrollSchema, type RegistrationFormData as PonyRegistrationScroll } from "../schemas/registrationSchema";
+import { registrationSchema as ponyScrollSchema, type PonyRegistrationScroll as PonyRegistrationScroll } from "../schemas/registrationSchema";
 
 interface Props {
     onSubmit: (data: PonyRegistrationScroll) => void;
