@@ -4,8 +4,8 @@ import "@testing-library/jest-dom";
 import App from "./App";
 
 // Mock the RegistrationForm component
-vi.mock("./components/RegistrationForm", () => ({
-  RegistrationForm: () => <div data-testid="registration-form">Registration Form</div>,
+vi.mock("./components/PonyRegistrationForm", () => ({
+  RegistrationForm: () => <div data-testid="registration-form">Pony Registration Form</div>,
 }));
 
 describe("App Component", () => {
