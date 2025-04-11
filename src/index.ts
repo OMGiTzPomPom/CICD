@@ -1,8 +1,8 @@
 // Export components
-export { RegistrationForm } from "./components/PonyRegistrationForm";
+export { PonyRegistrationForm } from "./components/PonyRegistrationForm";
 
 // Export types
-export type { RegistrationFormData } from "./schemas/registrationSchema";
+export type { PonyRegistrationScroll } from "./schemas/registrationSchema";
 
 // Export schemas if needed
 export { registrationSchema } from "./schemas/registrationSchema";
