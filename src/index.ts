@@ -1,5 +1,5 @@
 // Export components
-export { RegistrationForm } from "./components/RegistrationForm";
+export { RegistrationForm } from "./components/PonyRegistrationForm";
 
 // Export types
 export type { RegistrationFormData } from "./schemas/registrationSchema";
