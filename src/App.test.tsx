@@ -5,7 +5,7 @@ import App from "./App";
 
 // Mock the RegistrationForm component
 vi.mock("./components/PonyRegistrationForm", () => ({
-  RegistrationForm: () => <div data-testid="registration-form">Pony Registration Form</div>,
+  PonyRegistrationForm: () => <div data-testid="registration-form">Pony Registration Form</div>,
 }));
 
 describe("App Component", () => {
