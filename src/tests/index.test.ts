@@ -3,8 +3,8 @@ import * as indexExports from "../index";
 
 describe("index.ts exports", () => {
   it("should export RegistrationForm component", () => {
-    expect(indexExports.RegistrationForm).toBeDefined();
-    expect(typeof indexExports.RegistrationForm).toBe("function");
+    expect(indexExports.PonyRegistrationForm).toBeDefined();
+    expect(typeof indexExports.PonyRegistrationForm).toBe("function");
   });
 
   it("should export registrationSchema", () => {
